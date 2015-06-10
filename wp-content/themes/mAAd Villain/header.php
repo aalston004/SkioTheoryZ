@@ -26,7 +26,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header"><!--c-->
                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only">Navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -35,7 +35,7 @@
                     </div><!--c-->
                     
                       <?php
-                            wp_nav_menu( array(
+                            echo wp_nav_menu( array(
                                 'menu'              => 'primary',
                                 'theme_location'    => 'primary',
                                 'depth'             => 2,
