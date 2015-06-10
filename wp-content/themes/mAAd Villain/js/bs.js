@@ -28,6 +28,7 @@ if (typeof jQuery === 'undefined') {
  * ======================================================================== */
 
 
+
 +function ($) {
   'use strict';
 
@@ -2318,3 +2319,10 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+jQuery(document).ready(function($) {
+    $('.menu-toggle').click(function(e) {
+        $('.menu-toggle').toggleClass('toggled');
+        $('.menu').toggleClass('active');
+    });
+});
